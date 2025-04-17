@@ -1,0 +1,12 @@
+{
+  "keys": [
+    {
+      "kty": "RSA",
+      "kid": "ecw-key-1",
+      "use": "sig",
+      "alg": "RS256",
+      "n": "nGTOOST_n5tib1453yEX-0pVXXbhfYgWOhR9kaNN5avjZI5apg6NP6pO-nGcdO27ww7qo47jSM1OJ4gxc7rCl5mqvhbHZvndDigeaS_s1xmS_vDKmuHgbJfu5GHmXh1nHwmNo2Twt9EnjtkaeWtz2P_Mwc9yoC9BDzk8fjeEM9YEvGqOr6dlXvnD9FV_2FQa03tI1U_TK6e5GDdQt_W0qwcjtWXdRAWoOu7kJe42NSpYa3LgQTK-WUY0d_IV3thVdemgufppq8lfUP0aN3OxvLcgeNDhA09ZqoCLx_cs0MhGiiX1TOFbqwlhNuKpiooHKNq1KFsyx7RApldFGZU89Q",
+      "e": "AQAB"
+    }
+  ]
+}
