@@ -1,12 +1,28 @@
 {
   "keys": [
     {
-      "kty": "RSA",
-      "kid": "ecw-key-1",
+      "kty": "EC",
+      "crv": "P-384",
+      "x": "MtYwcQulSuXeUyi2KgRrqnXPFX1dqp6tFJMz55Yk3ALcBXo64piUuUdz7Yc2_gFbtTEB2xDr7QdXF4NrWfvmt9mzHj-vmYzW",
+      "y": "I2m5kBHPwzj4vh8fEyY1BxXm0O",
       "use": "sig",
-      "alg": "RS256",
-      "n": "nGTOOST_n5tib1453yEX-0pVXXbhfYgWOhR9kaNN5avjZI5apg6NP6pO-nGcdO27ww7qo47jSM1OJ4gxc7rCl5mqvhbHZvndDigeaS_s1xmS_vDKmuHgbJfu5GHmXh1nHwmNo2Twt9EnjtkaeWtz2P_Mwc9yoC9BDzk8fjeEM9YEvGqOr6dlXvnD9FV_2FQa03tI1U_TK6e5GDdQt_W0qwcjtWXdRAWoOu7kJe42NSpYa3LgQTK-WUY0d_IV3thVdemgufppq8lfUP0aN3OxvLcgeNDhA09ZqoCLx_cs0MhGiiX1TOFbqwlhNuKpiooHKNq1KFsyx7RApldFGZU89Q",
-      "e": "AQAB"
+      "alg": "ES384",
+      "kid": "ec-key-1",
+      "key_ops": [
+        "verify"
+      ],
+      "ext": true
+    },
+    {
+      "kty": "RSA",
+      "n": "zwZY_W0wmvntbSh1mxMCGhy0lP4hSXkSmfqGtK-fjQss_n69_ZCcpg57U_oKhYoj8FYr3EfG2UUJOc2VShcY2Tr7Qgekg8AxSx0Iv1jnfT2KgEXf7acKohmdJwPpaZomzcQJRQ_YH_-vI8ld6c2qMzYPaelUGRnCOT33_5q-BsSecjLgD0VgTSN2z-3tXUZPcmg41dOVaBiDGWETHQgiYfVxd9kPFD1p44-ARvxTZdJ20EZ9h4runOfWl2OdrNoccky_iwds7hwMVrp8jbLEJfOdvA6tPaLqk2dkiRsZFYmqI6vvJ1eGLfr0iu3e5AhYBRQBDsAQhJSvHBAj0NU2Vw",
+      "e": "AQAB",
+      "use": "sig",
+      "alg": "RS384",
+      "key_ops": [
+        "verify"
+      ],
+      "kid": "rsa-key-1"
     }
   ]
 }
